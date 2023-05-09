@@ -6,10 +6,10 @@ namespace maxTest;
 [TestClass]
 public class UnitTest1
 {
-    MAxInt maxint;
+    MAxValue maxint;
     [TestInitialize] 
     public void Setup(){
-         maxint  = new MAxInt();
+         maxint  = new MAxValue();
     }
 
     [TestMethod]
@@ -75,6 +75,36 @@ public class UnitTest1
         float expected = value3;
         Assert.AreEqual(expected, output);
     }
+    [TestMethod] 
+    public void FirstPostion_string(){
+        string value1 = "Peach";
+        string value2 = "Apple";
+        string value3 = "Banana";
+        string output = maxint.printMax_string(value1, value2, value3);
+        string expected = value1;
+        Assert.AreEqual(expected,output);
+    }
+       [TestMethod] 
+    public void SecondPostion_string(){
+        string value1 = "Apple";
+        string value2 =  "Peach";
+        string value3 = "Banana";
+        string output = maxint.printMax_string(value1, value2, value3);
+        string expected = value2;
+        Assert.AreEqual(expected,output);
+    }
+         [TestMethod] 
+    public void ThirdPostion_string(){
+        string value1 = "Apple";
+        string value2 =  "Banana";
+        string value3 =  "Peach";
+        string output = maxint.printMax_string(value1, value2, value3);
+        string expected = value3;
+        Assert.AreEqual(expected,output);
+    }
+
+
+
 
 
 
