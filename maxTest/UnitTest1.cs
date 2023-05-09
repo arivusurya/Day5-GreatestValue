@@ -102,10 +102,35 @@ public class UnitTest1
         string expected = value3;
         Assert.AreEqual(expected,output);
     }
+    [TestMethod]
+    public void Refactor1_1(){
+        int value1 = 10;
+        int value2 = 20;
+        int value3 = 30;
 
+        int output = maxint.Printgratest<int>(value1,value2,value3);
+        int expected = value3;
+        Assert.AreEqual(expected,output);
+    }
+    [TestMethod] 
+    public void Refactor1_2(){
+        float value1 = 20.5f;
+        float value2 = 10.4f ;
+        float value3 = 30.6f ;
+        
+        float output = maxint.Printgratest<float>(value1, value2, value3);
+        float expected = value3;
+        Assert.AreEqual(expected, output);
 
-
-
-
-
+    }
+    [TestMethod]
+    public void Refactor1_3(){
+        string value1 = "Apple";
+        string value2 =  "Banana";
+        string value3 =  "Peach";
+        string output = maxint.Printgratest<string>(value1, value2, value3);
+        string expected = value3;
+        Assert.AreEqual(expected,output);
+    }
+    
 }

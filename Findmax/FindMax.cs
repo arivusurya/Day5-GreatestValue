@@ -35,5 +35,15 @@ namespace Maxvalue{
                 return value3;
             }
         }
+
+        public T Printgratest<T>(T value1, T value2, T value3) where T : IComparable{
+            if(value1.CompareTo(value2) > 0 && value1.CompareTo(value3) > 0){
+               return value1;
+            }else if(value2.CompareTo(value3) > 0){
+                return value2;
+            }else{
+                return value3;
+            }
+        }
     }
 }
