@@ -44,6 +44,38 @@ public class UnitTest1
         int expected = value3;
         Assert.AreEqual(expected,output);
     }
+    [TestMethod]
+    public void FirstPostion_float(){
+        float value1 = 30.6f;
+        float value2 = 20.5f ;
+        float value3 = 10.4f;
+        
+        float output = maxint.printMax_float(value1, value2, value3);
+        float expected = value1;
+        Assert.AreEqual(expected, output);
+    }
+    [TestMethod]
+        public void SecondPostion_float(){
+        float value1 = 20.5f;
+        float value2 = 30.6f ;
+        float value3 = 10.4f;
+        
+        float output = maxint.printMax_float(value1, value2, value3);
+        float expected = value2;
+        Assert.AreEqual(expected, output);
+    }
+
+    [TestMethod]
+    public void ThirdPostion_float(){
+        float value1 = 20.5f;
+        float value2 = 10.4f ;
+        float value3 = 30.6f ;
+        
+        float output = maxint.printMax_float(value1, value2, value3);
+        float expected = value3;
+        Assert.AreEqual(expected, output);
+    }
+
 
 
 }
