@@ -1,0 +1,15 @@
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/bin/Debug/net7.0/Findmax
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/bin/Debug/net7.0/Findmax.deps.json
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/bin/Debug/net7.0/Findmax.runtimeconfig.json
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/bin/Debug/net7.0/Findmax.dll
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/bin/Debug/net7.0/Findmax.pdb
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/obj/Debug/net7.0/Findmax.csproj.AssemblyReference.cache
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/obj/Debug/net7.0/Findmax.GeneratedMSBuildEditorConfig.editorconfig
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/obj/Debug/net7.0/Findmax.AssemblyInfoInputs.cache
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/obj/Debug/net7.0/Findmax.AssemblyInfo.cs
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/obj/Debug/net7.0/Findmax.csproj.CoreCompileInputs.cache
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/obj/Debug/net7.0/Findmax.dll
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/obj/Debug/net7.0/refint/Findmax.dll
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/obj/Debug/net7.0/Findmax.pdb
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/obj/Debug/net7.0/Findmax.genruntimeconfig.cache
+/home/arivusurya/Desktop/dotnet-developement/dotnet-remap-assinment/day-5-findMax/Findmax/obj/Debug/net7.0/ref/Findmax.dll
