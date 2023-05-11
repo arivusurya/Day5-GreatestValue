@@ -35,5 +35,10 @@ namespace Maxvalue{
                 return value3;
             }
         }
+
+        public void Printmax(){
+            T maxvalue = testMaximumValue();
+            System.Console.WriteLine("The max value is "+ maxvalue);
+        }
     }
 }
