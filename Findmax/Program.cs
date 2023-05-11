@@ -16,13 +16,10 @@ namespace Maxvalue{
             // System.Console.WriteLine("max value : " + Maxvalue);
             // System.Console.WriteLine("max Float : " + MaxFloat);
             // System.Console.WriteLine("MaxString : " + MaxString);
-
+            int[] arr = {5,6,8,9};
             MaxValue<int> obj = new MaxValue<int>(30,40,50);
-            int maxint = obj.testMaximumValue();
+            int maxint = obj.maxmethod(arr);
             System.Console.WriteLine("max int : " +maxint);
-            
-            
-
         }
     }
 }

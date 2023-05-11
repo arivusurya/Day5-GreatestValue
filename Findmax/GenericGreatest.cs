@@ -20,6 +20,12 @@ namespace Maxvalue{
 
         }
 
+        public T maxmethod(T[] valuearray){
+            Array.Sort(valuearray);
+            
+            return valuearray[valuearray.Length -1];
+        }
+
         private static T testMaximum(T value1,T value2,T value3){
               if(value1.CompareTo(value2) > 0 && value1.CompareTo(value3) > 0){
                return value1;
