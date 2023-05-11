@@ -6,10 +6,11 @@ namespace maxTest;
 [TestClass]
 public class UnitTest1
 {
+    
     MAxValue maxint;
     [TestInitialize] 
     public void Setup(){
-         maxint  = new MAxValue();
+        maxint  = new MAxValue();
     }
 
     [TestMethod]
@@ -129,6 +130,38 @@ public class UnitTest1
         string value2 =  "Banana";
         string value3 =  "Peach";
         string output = maxint.Printgratest<string>(value1, value2, value3);
+        string expected = value3;
+        Assert.AreEqual(expected,output);
+    }
+     [TestMethod]
+    public void Refactor2_1_int(){
+        int value1 = 10;
+        int value2 = 20;
+        int value3 = 30;
+        MaxValue<int> maxvalue = new MaxValue<int>(value1, value2, value3);
+        int output = maxvalue.testMaximumValue();
+        int expected = value3;
+        Assert.AreEqual(expected,output);
+    }
+     [TestMethod]
+    public void Refactor2_2_float(){
+        float value1 = 20.5f;
+        float value2 = 10.4f ;
+        float value3 = 30.6f ;
+
+        MaxValue<float> maxvalue = new MaxValue<float>(value1, value2, value3);
+        float output = maxvalue.testMaximumValue();
+        float expected = value3;
+        Assert.AreEqual(expected,output);
+    }
+     [TestMethod]
+    public void Refactor2_2_String(){
+        string value1 = "Apple";
+        string value2 =  "Banana";
+        string value3 =  "Peach";
+
+        MaxValue<string> maxvalue = new MaxValue<string>(value1, value2, value3);
+        string output = maxvalue.testMaximumValue();
         string expected = value3;
         Assert.AreEqual(expected,output);
     }
